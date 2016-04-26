@@ -3,17 +3,17 @@ layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS.
 venue: "European Molecular Biology Laboratory"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Meyerhofstrasse 1, Heidelberg"      # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
-country: "deE"      # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
+country: "de"      # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "49.384313, 8.710098"       # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
 humandate: "Sep 20-22, 2016"    # human-readable date (e.g., "Feb 17-18, 2020")
-humantime: "13:00-18:00 Day 1, 09:00-18:00 Days 2 & 3"    # human-readable time (e.g., "9:00 am - 4:30 pm")
+humantime: "13:00-18:00 Day 1, 09:00-18:00 Day 2, 09:00-17:00 Day 3"    # human-readable time (e.g., "9:00 am - 4:30 pm")
 startdate: 2016-09-20      # use YYYY-MM-DD format like 2015-01-01
 enddate: 2016-09-22        # use YYYY-MM-DD format like 2015-01-02
 instructor: ["Toby Hodges", "Luis Pedro Coelho", "Malvika Sharan", "Thomas Schwarzl", "Mike Smith", "Frank Thommen", "Georg Zeller"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: [""]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: "toby.hodges@embl.de"      # contact email address for workshop organizer, such as "grace@hopper.org"
-etherpad:         # optional (insert the URL for your Etherpad if you're using one)
+helper: ["Grant Adey", "Natalie Romanov", "Renato Alves"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: "toby[dot]hodges[at]embl[dot]de"      # contact email address for workshop organizer, such as "grace@hopper.org"
+etherpad: "https://public.etherpad-mozilla.org/p/13alGeoYkL"        # optional (insert the URL for your Etherpad if you're using one)
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
 ---
 
@@ -93,10 +93,20 @@ Software Carpentry staff may need to know in your email.</h4>
   <strong>Who:</strong>
   This is a course for researchers in the life sciences who are using computers for their analyses, even if not full time. 
   The target student will know a little bit of command line/programmatic computer usage, but not consider themselves an expert. 
-  A target student will have written a for loop in some language before, but will not know what Git is 
+  The target student will have written a for loop in some language before, but will not know what Git is 
   (or at least not be very comfortable with advanced Git usage).
 </p>
 
+<!--
+  REGISTRATION
+-->
+<p>
+  You must be registered in order to attend the course. 
+  Registration for the workshop is available through the 
+  <a href="http://www.embl.de/training/events/2016/SWC16-01/index.html">EMBl Course & Conference Office.</a> 
+  There you will also find details of the venue, travel/directions 
+  and accommodation in Heidelberg.
+</p>
 <!--
   LOCATION
 
@@ -182,7 +192,7 @@ Software Carpentry staff may need to know in your email.</h4>
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 -->
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Tentative Schedule</h2>
 
 <!-- DO NOT EDIT SURVEY LINKS -->
 <p><em>Surveys</em></p>
@@ -194,22 +204,33 @@ Software Carpentry staff may need to know in your email.</h4>
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>13:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
+      <tr> <td>14:30</td> <td>Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td>Introduction to Python Scripting I</td> </tr>
+      <tr> <td>17:30</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
+      <tr> <td>09:00</td>  <td>Introduction to Python Scripting II</td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
+      <tr> <td>13:00</td>  <td>Version Control with Git and GitHub</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>17:30</td>  <td>Wrap-up</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 3</h3>
+    <table class="table table-striped">
+      <tr> <td>09:00</td>  <td>Scientific Python and Working with Biological Data</td> </tr>
+      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>10:45</td>  <td>Pipeline Management with SnakeMake I</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td>Pipeline Management with SnakeMake II</td> </tr>
+      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>14:45</td>  <td>HPC Cluster Job Submission</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
@@ -328,18 +349,16 @@ Software Carpentry staff may need to know in your email.</h4>
     </ul>
   </div>
   <div class="col-md-6">
-    <h3 id="syllabus-sql">Managing Data with SQL</h3>
-    <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="{{site.swc_githubio}}/sql-novice-survey/reference.html">Reference...</a></li>
-    </ul>
+    <h3 id="syllabus-scipy">Scientific Python and Working with Biological Data</h3>
+    <p><strong>TBC</strong></p>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-snakemake">Pipeline Management with SnakeMake</h3>
+    <p><strong>TBC</strong></p>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-cluster">HPC Cluster Job Submission</h3>
+    <p><strong>TBC</strong></p>
   </div>
 </div>
 
@@ -358,7 +377,7 @@ Software Carpentry staff may need to know in your email.</h4>
 -->
 
 <h2 id="setup">Setup</h2>
-
+<!--
 <p>
   To participate in a Software Carpentry workshop, you will need
   access to the software described below. In addition, you will
@@ -723,7 +742,7 @@ Software Carpentry staff may need to know in your email.</h4>
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> <!-- End of 'SQLite' section. -->
-
+-->
 <!--
   Uncomment this section if you are using our virtual machine.
 
